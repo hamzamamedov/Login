@@ -9,5 +9,7 @@ function login() {
   } else {
     alert("Parolunuz duzgun deyil !!!");
     document.getElementById("myform").action="";
+    document.getElementById("username").value="";
+    document.getElementById("password").value="";
   }
 }
