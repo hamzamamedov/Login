@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  box-shadow: 0 0 5px black;
 }
 
 form {
@@ -38,7 +39,7 @@ form .inputbox {
 
 form .inputbox label {
   position: absolute;
-  left: 0;
+  left: 10px;
   top: -5px;
   padding: 10px 0;
   font-size: 16px;
@@ -49,6 +50,7 @@ form .inputbox label {
 form .inputbox input:focus ~ label,
 form .inputbox input:valid ~ label {
   top: -20px;
+  left: 0;
   font-size: 12px;
   color: rgb(209, 226, 241);
 }
@@ -66,7 +68,7 @@ button {
 form input {
   transition: all 0.3s;
   border-bottom: 1px solid #002aff;
-  padding: 10px 0;
+  padding: 10px 0 0 6px;
 }
 
 form button {
